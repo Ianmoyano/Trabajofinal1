@@ -1,0 +1,107 @@
+.Titulo {
+    height: 110px;
+    width: 800px;
+    background-color: rgb(176, 184, 184);
+    color: rgb(0, 0, 0);
+    border: 6px;
+    border-color: rgb(86, 00, 255);
+    border-style: double;
+    font-size: 20px;
+    font-style: italic;
+    position: absolute;
+    top: 0px;
+    left: 550px;
+
+}
+
+.form-floating {
+    height: 50px;
+    width: 450px;
+    position: absolute;
+    left: 45px;
+    top: 100px;
+}
+
+.info {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 5px;
+}
+
+
+.container {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 220px;
+    left: 520px;
+    color: yellow;
+}
+
+.form-check {
+    color: white;
+
+}
+
+.link {
+    color: white;
+
+}
+
+.enlaces {
+    background-color: black;
+    color: white;
+    width: 267px;
+}
+
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: brown;
+    padding-top: 20px;
+}
+
+.mensaje-error {
+    color: rgb(252, 252, 252);
+    background-color: rgb(119, 24, 148);
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(73, 37, 107);
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(73, 37, 107);
+    border-radius: 50%;
+}
+
+.form-check-input {
+    position: absolute;
+    left: 90px;
+    top: 780px;
+
+}
+
+.form-check-label {
+    position: absolute;                            
+    left: 90px;
+    top: 780px;
+}
+
+.btn-primary {
+    border-radius: 15px;
+    background-color: rgb(119, 24, 148);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 45px;
+    top: 810px;
+}
