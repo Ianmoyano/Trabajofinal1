@@ -1,0 +1,160 @@
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+   --purple:#9a67ea;
+}
+
+
+
+.container {
+    max-width: 80%;
+    width: 800px;
+    height: 600px;
+    margin: 0 ;
+position: absolute;
+left: 550px;
+}
+
+/*PERFIL*/
+
+
+
+.perfil h1 {
+    color: rgb(47, 16, 105);
+background-color: rgb(255, 255, 255);
+border: 1px;
+border-style: solid;
+border-color:var(--purple);
+width: 1879px;
+display: flex;
+    align-items: center;
+justify-content: center;
+font-family: 'Courier New', Courier, monospace ;
+}
+
+.perfil span {
+    color: rgb(47, 16, 105);
+    background-color:rgb(255, 255, 255);
+    height: 50px;
+    width: 1879px;
+    display: flex;
+        align-items: center;
+    justify-content: center;
+font-size: 20px;
+border: 1px;
+border-style: solid;
+border-color:var(--purple);
+font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+/*AGREGAR TAREA*/
+
+.agregar-tarea {
+    background-color: var(--purple);
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px;
+    margin: 40px 0;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.agregar-tarea input {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color:var(--purple);
+    padding-left: 10px;
+border: 2px;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+}
+.agregar-tarea input::placeholder {
+   font-size: 1.1rem;
+   color: black;
+}
+
+.agregar-tarea i{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+
+}
+.agregar-tarea i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+/*SECCION DE TAREA */
+
+.seccion-tarea h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border: 2px;
+border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-tarea li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:white;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    margin: 5px 0;
+    border-style: solid;
+    border-color: black;
+}
+.seccion-tarea i {
+    font-size: 25px;
+}
+
+.seccion-tarea > ul p {
+    font-size: 1.2rem;
+
+}
+
+
+.seccion-tarea i:hover {
+    color: rgb(4, 0, 255);
+    cursor: pointer;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color : rgb(0, 0, 0);
+} 
+

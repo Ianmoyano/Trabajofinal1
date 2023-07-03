@@ -10,7 +10,7 @@
     font-style: italic;
     position: absolute;
     top: 0px;
-    left: 550px;
+    left: 560px;
 
 }
 
@@ -66,6 +66,7 @@
 .mensaje-error {
     color: rgb(252, 252, 252);
     background-color: rgb(119, 24, 148);
+border-radius: 5px;
 }
 
 .carousel-inner {
@@ -105,3 +106,9 @@
     left: 45px;
     top: 810px;
 }
+.nav-item{
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 5px;
+   
+}
+

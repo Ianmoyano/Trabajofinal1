@@ -86,13 +86,14 @@ const enviarFormulario = () => {
     console.log("Email:", emailInput.value);
     console.log("Codigo postal:", codigoInput.value);
     console.log("Telefono:", telInput.value);
-    console.log("Acepta los terminos y condiciones:", check.value);
+    console.log("Acepta los terminos y condiciones:", check.checked);
 
   } else {
     console.log("Formulario incorrecto")
   }
 
 }
+
 
 const inicializarJs = () => {
   const boton = document.getElementById("enviar-btn")
